@@ -7,5 +7,11 @@ namespace Tp1
     public class DataRepository
     {
         private DataContext dataCon { get; set; }
+
+        public DataRepository(DataFiller filler)
+        {
+            dataCon = new DataContext();
+            filler.fill(dataCon);
+        }
     }
 }
