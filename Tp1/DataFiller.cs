@@ -6,7 +6,7 @@ namespace Tp1
 {
     public abstract class DataFiller
     {
-        DataContext context;
+        DataContext dataContext;
         internal abstract void fill(DataContext context);
     }
 }
