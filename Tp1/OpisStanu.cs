@@ -12,7 +12,7 @@ namespace Tp1
         public int ilosc { get; set; }
         public double cena { get; set; }
 
-        public OpisStanu(Katalog book, int ilosc, double cena)
+        public OpisStanu(Katalog ksiazka, int ilosc, double cena)
         {
             this.ksiazka = ksiazka;
             this.ilosc = ilosc;
