@@ -16,10 +16,10 @@ namespace Tp1
             dataContext.osoba.Add(new Wykaz("Adam", "Nowak", "Kraków"));
             dataContext.osoba.Add(new Wykaz("Magda", "Maj", "Warszawa"));
             dataContext.ksiazki.Add(0, new Katalog("Quo Vadis", "Henryk Sienkiewicz", 2000));
-            dataContext.ksiazki.Add(0, new Katalog("Władca Pierścieni", "J.R.R Tolkien", 1998));
-            dataContext.ksiazki.Add(0, new Katalog("Lalka", "Bolesław Prus", 2014));
-            dataContext.ksiazki.Add(0, new Katalog("Być fit", "Krzysztof Ibisz", 1965));
-            dataContext.ksiazki.Add(0, new Katalog("Jacek Balcerzak", "Skierowanko", 1811));
+            dataContext.ksiazki.Add(1, new Katalog("Władca Pierścieni", "J.R.R Tolkien", 1998));
+            dataContext.ksiazki.Add(2, new Katalog("Lalka", "Bolesław Prus", 2014));
+            dataContext.ksiazki.Add(3, new Katalog("Być fit", "Krzysztof Ibisz", 1965));
+            dataContext.ksiazki.Add(4, new Katalog("Jacek Balcerzak", "Skierowanko", 1811));
             dataContext.stan.Add(new OpisStanu(dataContext.ksiazki[0], 2, 12.50));
             dataContext.stan.Add(new OpisStanu(dataContext.ksiazki[1], 2, 12.50));
             dataContext.stan.Add(new OpisStanu(dataContext.ksiazki[2], 2, 12.50));
